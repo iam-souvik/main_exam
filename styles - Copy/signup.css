@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 20px ;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#form>h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    height: 180px;
+    width: 30%;
+    margin: 50px auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
